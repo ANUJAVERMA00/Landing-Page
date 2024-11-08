@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #ff6b81;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-btn:hover {
+    background-color: #222;
+}
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-dark-green-cyan-paper-cut-minimalist-background-for-brochure-poster-banner-image_405384.jpg') center/cover no-repeat;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #ff6b81;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.about .btn {
+    background-color: #ff6b81;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.services .service {
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+}
+
+.services img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
